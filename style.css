@@ -27,3 +27,17 @@ img {
     border-radius: 15px;
     margin-bottom: 13px;
 }
+.img-animation {
+    animation-name: image-slide;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+}
+@keyframes image-slide {
+    0%{
+        transform: translate(-160px);
+    }
+    100%{
+        transform: translate(160px);
+    }
+}
